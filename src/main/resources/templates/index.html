@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Excel Generator</h1>
+<hr style="width:20%;text-align:left;margin-left:0">
+<a th:href="@{/members/export/excel/simpleFromDB}">Export to Excel from Database</a>
+<br>
+<a th:href="@{/members/export/excel/cellStyle}">Export Cell Style</a>
+<br>
+<a th:href="@{/members/export/excel/styledFromDB}">Export Styled From Database</a>
+<hr style="width:20%;text-align:left;margin-left:0">
+<h1>Word Generator</h1>
+<hr style="width:20%;text-align:left;margin-left:0">
+<a th:href="@{/members/export/word/simpleWord}">Export Simple Word</a>
+<br>
+<a th:href="@{/members/export/word/wordFromDB}">Export Word From Database</a>
+<hr style="width:20%;text-align:left;margin-left:0">
+<h1>CSV Generator</h1>
+<hr style="width:20%;text-align:left;margin-left:0">
+<a th:href="@{/members/export/csv/exportCSV}">Export Simple CSV</a>
+<hr style="width:20%;text-align:left;margin-left:0">
+</body>
+</html>
